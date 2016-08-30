@@ -1,0 +1,43 @@
+html, body{
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+.page-container  {
+    width:1070px;
+    margin: 0 auto;
+    position:relative;
+}
+
+.header {
+    position:static;
+    height:50px;
+    background-color:#fff;
+}
+
+.article-container {
+    width:740px;
+    margin-top:20px;
+    background-color:white;
+}
+
+.banner-img {
+    background-image:url("http://cdn.thedailybeast.com/content/dailybeast/articles/2016/08/29/legendary-comedic-actor-gene-wilder-dead-at-83/jcr:content/image.crop.800.500.jpg/49083699.cached.jpg");
+    height: 460px;
+    width: 100%;
+}
+
+.list-container {
+    width:300px;
+    position:fixed;
+    right:calc(50% - 535px);
+    top:70px;
+    background-color:white;
+}
+
+.list-container-header  {
+    background-color:black;
+    color:white;
+    font-weight:bold;
+    text-transform:uppercase;
+}
