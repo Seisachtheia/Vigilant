@@ -62,13 +62,14 @@ h6 {
         height: 38px;
         padding: 10 20 10 20;
     
-        & h4.rubric {
+        & .rubric {
             text-transform:uppercase;
             font-size:15px;
             padding-right:10px;
             display:inline;
             line-height:18px;
-            
+            margin-left:35px;
+            color: #f00606;
 
         }
     }
